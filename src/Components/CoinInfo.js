@@ -13,6 +13,7 @@ import { CryptoState } from "../Crypto_context";
 
 Chart.register(...registerables);
 
+
 const CoinInfo = ({ coin }) => {
   const [historicData, setHistoricData] = useState();
   const [days, setDays] = useState(1);
