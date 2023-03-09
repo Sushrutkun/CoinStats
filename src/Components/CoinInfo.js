@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { HistoricalChart } from "../config/api";
 import { Line } from "react-chartjs-2";
-import { Chart, registerables } from 'chart.js';
+// import { Chart, registerables } from 'chart.js';
 
 import SelectButton from "./SelectButton";
 import { chartDays } from "../config/data";
@@ -11,7 +11,7 @@ import { CircularProgress, createTheme, ThemeProvider } from "@mui/material";
 import "./comp.css"
 import { CryptoState } from "../Crypto_context";
 
-Chart.register(...registerables);
+// Chart.register(...registerables);
 
 const CoinInfo = ({ coin }) => {
   const [historicData, setHistoricData] = useState();
