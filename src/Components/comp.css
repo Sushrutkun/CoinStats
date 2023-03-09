@@ -1,0 +1,53 @@
+.selectbutton {
+  border: 1px solid gold;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat;
+  cursor: pointer;
+  background-color: gold;
+  color: black;
+  font-weight: 700;
+  width: 22%;
+  margin: 5px;
+}
+
+.selectbutton:hover {
+  background-color: gold;
+  color: black;
+}
+
+.container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 40px;
+  }
+  
+  @media (max-width: 960px) {
+    .container {
+      width: 100%;
+      margin-top: 0;
+      padding: 20px;
+      padding-top: 0;
+    }
+  }
+  .row {
+    background-color: #16171a;
+    cursor: pointer;
+    font-family: Montserrat;
+  }
+  
+  .row:hover {
+    background-color: #131111;
+  }
+  
+  .pagination .MuiPaginationItem-root {
+    color: gold;
+  }
+  
+    
