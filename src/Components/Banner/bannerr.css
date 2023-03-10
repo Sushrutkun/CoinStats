@@ -1,5 +1,9 @@
 .banner {
-    background-image: url(./banner2.jpg);
+    /* background-image: url(./banner2.jpg); */
+    background-image: url(https://t4.ftcdn.net/jpg/04/23/18/83/360_F_423188362_B6iLBKbMypBLPHT5VzOF9KtfQjpaUvLV.jpg);
+    /* background-image: url(https://t4.ftcdn.net/jpg/04/51/96/93/240_F_451969390_fwd7fUNbLuQ0125iqpsV98d1u6Jy7GTY.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
   }
   
   .bannerContent {

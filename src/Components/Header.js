@@ -24,7 +24,7 @@ const Header = () => {
       <Container>
         <Toolbar>
           
-          <Typography onClick={() => navigate('/')} className='Header' variant='h6'>Crypto Hunter</Typography>
+          <Typography onClick={() => navigate('/')} className='Header' variant='h6'>CoinStats</Typography>
 
 
           <Select variant="outlined"
