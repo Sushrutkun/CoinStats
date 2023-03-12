@@ -9,8 +9,6 @@ const Crypto_context = ({children}) => {
     useEffect(() => {
         if (currency === "INR") setSymbol("₹");
         else if (currency === "USD") setSymbol("$");
-        else if (currency === "Yen") setSymbol("¥");
-        else if (currency === "rubel") setSymbol("$");
       }, [currency]);
 
   return (
