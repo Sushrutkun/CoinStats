@@ -2,10 +2,7 @@ import { AppBar, Container, MenuItem, Select, Toolbar, Typography } from '@mui/m
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import React from 'react';
 import { useNavigate} from 'react-router-dom';
-// import '../App.css';
 import { CryptoState } from '../Crypto_context';
-
-// console.log(currency)
 
 const darktheme = createTheme({
   palette: {
